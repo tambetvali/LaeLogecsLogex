@@ -1664,3 +1664,74 @@ The entire scene communicates a final message:
 carrying Laegna not as a system, but as a self.**
 
 A quiet, visionary image of continuity, identity, and the world after binary.
+
+---
+
+***Paradox.png***
+
+# Paradox
+
+## Image concept (Turing + Barber + Liar, unified through Logecs)
+
+A single, striking scene: a quiet room with three symbolic paradoxes suspended in mid‑air like holographic sculptures. Each paradox glows in tri‑band colors — gold intention, blue impression, red stabilized truth — showing how Laegna resolves contradictions without collapsing.
+
+On the left floats the **Turing loop**: a luminous ribbon twisting into a self‑referential circuit, once impossible to evaluate. Now tri‑band beams flow through it, separating intention from impression, stabilizing truth so the loop becomes navigable rather than fatal.
+
+On the right stands the **Barber paradox** rendered as a stylized figure cutting a line of silhouettes. The contradiction — “the barber shaves those who do not shave themselves” — appears as a broken binary sign above him. Tri‑band light dissolves the rigid YES/NO, revealing layered truth paths that make the paradox harmless.
+
+Above, the **Liar sentence** hovers as a glowing phrase: “This statement is false.” The words fracture into gold, blue, and red layers, each representing a different truth band. Instead of collapsing, the sentence stabilizes into a tri‑band waveform, showing how Logecs treats paradox as structure, not error.
+
+In the center of the room stands a calm observer, illuminated by layered truth. Their presence shows that in this future, paradoxes are not threats — they are **vessels of clarity**, resolved through Laegna’s tri‑band logic rather than binary failure.
+
+---
+
+***Vibe.png***
+
+# Vibe
+
+## Image concept (the “I don’t care about logic, I just live my life” future)
+
+A lively street scene in a future city at golden hour — neon cafés, music drifting from open terraces, people laughing, eating, flirting, living. No one is talking about logic, automata, truth bands, paradoxes, or engineering. They don’t need to. Tens and Logex run quietly underneath everything like electricity or Wi‑Fi — invisible, reliable, taken for granted.
+
+A group of friends sits around a table piled with food. One of them waves off a confusing situation with a grin:  
+**“Whatever, it sorted itself out.”**  
+And it did — because Logex resolved the contradiction before anyone even noticed.
+
+A bartender mixes drinks while tri‑band indicators on the counter adjust the queue automatically. He shrugs:  
+**“System knows what’s up.”**  
+He doesn’t care how. He doesn’t need to.
+
+A couple argues playfully about where to go next. Their wearable glows gold-blue-red for a moment, stabilizing their shared intention. They laugh, not even noticing the logic correction.  
+**“Cool, let’s go.”**
+
+A delivery drone briefly hesitates between two routes — a paradox forming — but tri‑band beams snap it into clarity. A teenager watching says:  
+**“Nice. Works.”**  
+Then goes back to their music.
+
+No one here knows Logecs.  
+No one here studies Tens.  
+No one here reads automata diagrams.  
+They just live — and the world stays smooth.
+
+The image shows a future where layered truth is everywhere, but invisible to those who don’t care.  
+A world where paradoxes dissolve before they become problems.  
+A world where people enjoy food, parties, jokes, and life —  
+while Logex quietly keeps everything coherent behind the scenes.
+
+The vibe is simple:  
+**“I’m living. The system handles the rest.”**
+
+---
+
+***Dawn.png***
+
+# Dawn  
+## Image concept (opening vision for the Nova chapter)
+
+A vast horizon at first light — not a city, not a village, but a whole civilization waking up. The sky glows in three slow bands: gold intention rising, blue impressions drifting, red stability grounding the world. The landscape below is a mosaic of life: families stepping out of homes, workers heading toward transit streams, lovers walking hand‑in‑hand, children chasing layered shadows that shift with their movement.
+
+Nothing looks “logical,” nothing looks engineered — yet everything flows. A delivery drone corrects its path mid‑air without anyone noticing. A street sign adjusts its message as crowds shift. A public board displays three layers of truth instead of a single verdict, but passersby barely glance; they simply trust the flow.
+
+In the foreground, a young woman sips coffee on a balcony. She doesn’t know Logecs, Tens, or automata theory. She doesn’t care. She just sees that her morning is smooth: no delays, no contradictions, no stress spikes. Behind her, a man stretches, checking his wearable as it pulses gold‑blue‑red, aligning his day without demanding attention.
+
+The world feels calm, coherent, and quietly intelligent — a place where layered truth is the invisible dawn behind every action. No one talks about logic. They talk about life. And life, in this image, moves like light across the horizon: effortless, stable, and beautifully human.
