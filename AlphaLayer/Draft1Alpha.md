@@ -805,13 +805,13 @@ This makes Ten trivially first‑class.
 
 Define Ten as an object:
 
-\`\`\`
+```
 ten: make object! [
     bool: 'unknown
     short: 'unknown
     long: 'unknown
 ]
-\`\`\`
+```
 
 This object is a first‑class value:
 
@@ -827,13 +827,13 @@ This object is a first‑class value:
 
 Rebol/Red functions accept and return any value:
 
-\`\`\`
+```
 set-ten: func [t new-bool] [
     t/bool: new-bool
     ; update short/long here
     t
 ]
-\`\`\`
+```
 
 Ten flows through functions like integers or strings.
 
@@ -843,18 +843,18 @@ Ten flows through functions like integers or strings.
 
 Blocks:
 
-\`\`\`
+```
 states: [ten1 ten2 ten3]
-\`\`\`
+```
 
 Maps:
 
-\`\`\`
+```
 registry: make map! [
     "user1" ten1
     "user2" ten2
 ]
-\`\`\`
+```
 
 Ten is stored without special handling.
 
@@ -864,19 +864,19 @@ Ten is stored without special handling.
 
 Rebol/Red allow custom operators:
 
-\`\`\`
+```
 ==: make op! func [a b] [
     ; interpret a == b for Ten
 ]
-\`\`\`
+```
 
 Or custom dispatch:
 
-\`\`\`
+```
 if get-ten ten [
     print "Ten is true"
 ]
-\`\`\`
+```
 
 `get-ten` returns `True` / `False` / `Unknown` / `Contradiction`.  
 Rebol/Red treat these as normal logic values.
