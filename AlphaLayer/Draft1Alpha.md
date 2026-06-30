@@ -692,9 +692,8 @@ This gives you a clear conceptual and implementable path in both Red and Rebol, 
 ![Fashion](Graphics/Fashion.png)
 
 # Ten logic: intuitive final proofs and language citizenship  
-## (Rebol & Red edition — escaped multifences, symbolic, minimal, UTF‑8)
 
-I keep the same article‑style: no inner code blocks except the outer ones, and all inner fences escaped as \`\`\`. Only inline `code` and plain english math with utf‑8 symbols. The goal is *intuitive but reconstructable* proofs—enough structure that a careful reader can turn them into formal ones.
+The goal is *intuitive but reconstructable* proofs—enough structure that a careful reader can turn them into formal ones.
 
 ---
 
@@ -786,9 +785,6 @@ Ten does not solve undecidability; it **contains** it.
 ---
 
 ## 3. Ten as first‑class data in Rebol & Red
-
-This section replaces COBOL entirely.  
-Pure Rebol/Red semantics.
 
 ### 3.1. What “first‑class citizen” means in Rebol/Red
 
@@ -1084,6 +1080,8 @@ Rebol is explicit and procedural; Ten is a “logic service”.
 ---
 
 ### 3.3. COBOL
+
+***My remark: I want actually to see how Cobol relates to Rebol, and can it model our math to business and real-life environments. Never say never as a mathematician, not a programmer.***
 
 COBOL uses:
 
