@@ -165,4 +165,20 @@ Values do not check each others directly, like setting this False if other value
     - Two ends: short and long term; are here playing all this simple game perfectly, they can make turns to reach the goal.
       - Game itself becomes a logical "boolean".
 
-Each user switch has one additional switch to make it "uknown"; machine switches / screens can also become unknown.
+Each user switch has one additional switch to make it "uknown"; machine switches / screens can also become unknown if all their input is unknown, or they become unknown/partial if input is partial but calculation still has probabilities; rather they could show *unknown* if all, *incomplete* if any of inputs *for particular screen* are unknown, and one can see how screens can be somewhat independent.
+
+# Layout
+
+User screen should be at top half of page;
+- Short and long term should divide bottom half to left and right halves inside itself.
+
+Example:
+
+```
+
+                User Area
+
+-----------------------------------------
+                    |
+Short Tems Machine <=> Long Term Machine
+                    |
