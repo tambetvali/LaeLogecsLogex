@@ -1255,3 +1255,7 @@ Life wins because it is a **Ten**.
 <br>
 
 ![Ending](Graphics/Ending.png)
+
+<br>
+
+![CoPilotEnding](Graphics/CoPilotEnding.png)
