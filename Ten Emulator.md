@@ -1,3 +1,7 @@
+![Cover](Graphics/Cover.png)
+
+<br>
+
 # Ten Emulator
 
 Emulating Laegna Logex Ten.
@@ -30,6 +34,8 @@ Compare life with physics:
     - Goal based: long evolution yields to especially capable fields, not in terms of plain energy but reaching homeostasis=>equilibrum goal. This has paradox-failures, which are cancelled by evolutionary correction: goal based logic starts to work as optimizer, and bringing terms to pre-compilation indexing, ready-made genes and their effects.
 
 ## Laegna Logex: Ten Simulation
+
+![Machine](Graphics/Machine.png)
 
 Effect of this simulation must be to map long and short term goal.
 
@@ -144,6 +150,8 @@ All interactions need additional 4 digits:
 
 # Visualization:
 
+![Automate](Graphics/Automate.png)
+
 One visualization shows how it escapes the value, or passes it.
 
 Other visualization shows how Value is *at position 1* if True, *at position 2* otherwise:
@@ -187,6 +195,8 @@ Short Tems Machine <=> Long Term Machine
 ---
 
 # CoPilot's parts: an AI tries to formalize.
+
+![System](Graphics/System.png)
 
 # Ten Emulator — Formal Commentary  
 ### Based on AlphaLayer Draft1 (Laegna Logex / Laegna Octave Logic)
@@ -580,6 +590,8 @@ It is the **formal heart** of Ten Emulator.
 # Ten Emulator — Mathematical Formalization  
 ### Formal Math Model Derived from AlphaLayer (Laegna Logex)
 
+![Horizon](Graphics/Horizon.png)
+
 ---
 
 ## 1. Popular Overview
@@ -802,6 +814,8 @@ it is a **rigorous algebraic system** derived directly from AlphaLayer.
 # Ten Emulator — Paradox Resolvability  
 ### How Laegna Ten Handles Contradiction, Ambiguity, and Dual Outcomes
 
+![Observer](Graphics/Observer.png)
+
 ---
 
 ## 1. Popular Overview
@@ -1006,6 +1020,8 @@ It is a **paradox‑resolving logic engine**, not a paradox‑breaking one.
 
 # Human Aspects — How Actual Life Wins  
 ### Ten Emulator as a Model of Human Decision, Survival, and Meaning
+
+![Unmade](Graphics/Unmade.png)
 
 ---
 
@@ -1236,3 +1252,6 @@ Life wins because it is a **Ten**.
 
 ---
 
+<br>
+
+![Ending](Graphics/Ending.png)
