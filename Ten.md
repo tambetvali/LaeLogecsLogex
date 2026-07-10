@@ -381,3 +381,303 @@ is a **primitive environment-probe operator** in LaeLogecs that:
 - only exists procedurally in classical optimization  
 
 It is one of the core syntactic innovations enabling LaeLogecs to treat complex dependency models **structurally rather than procedurally**.
+
+# Formal Grammar for the Environment-Probe Operator `[B]A`
+
+This document defines the formal grammar, typing rules, and evaluation semantics for the LaeLogecs environment‑probe operator:
+
+```
+[B]A
+```
+
+which means: **value of $A$ in the environment where $B$ is set**.
+
+---
+
+## 1. Lexical Elements
+
+### 1.1 Identifiers
+Identifiers represent logical variables, values, or expressions.
+
+$$
+\text{IDENT} ::= [A\text{-}Za\text{-}z][A\text{-}Za\text{-}z0\text{-}9_]*
+$$
+
+Examples:
+- `A`
+- `B`
+- `State`
+- `Goal_7`
+
+### 1.2 Values
+Values may be:
+- IOAE truth values  
+- numeric values  
+- symbolic values  
+
+$$
+\text{VALUE} ::= I \mid O \mid A \mid E \mid \text{NUMBER} \mid \text{IDENT}
+$$
+
+### 1.3 Assignment
+Assignments bind identifiers to values.
+
+$$
+\text{ASSIGN} ::= \text{IDENT} "=" \text{VALUE}
+$$
+
+Example:
+
+```
+B = 7
+```
+
+---
+
+## 2. Core Grammar
+
+### 2.1 Environment Probe Expression
+
+$$
+\text{PROBE} ::= "["\ \text{ENV}\ "]"\ \text{EXPR}
+$$
+
+Where:
+
+- `ENV` describes the hypothetical environment  
+- `EXPR` is the expression evaluated under that environment  
+
+### 2.2 Environment Specification
+
+$$
+\text{ENV} ::= \text{ASSIGN} \mid \text{IDENT}
+$$
+
+Examples:
+
+```
+[B]A
+[B=7]A
+[L=False]S
+```
+
+### 2.3 Expressions
+
+$$
+\text{EXPR} ::= \text{IDENT} \mid \text{COMPOUND}
+$$
+
+Compound expressions include:
+
+- implications  
+- IOAE operations  
+- arithmetic  
+- logical compositions  
+
+Formally:
+
+$$
+\text{COMPOUND} ::= \text{EXPR}\ \text{OP}\ \text{EXPR}
+$$
+
+Where:
+
+$$
+\text{OP} ::= "=>" \mid "<=>" \mid "\land" \mid "\lor" \mid "+" \mid "-" \mid "\*" \mid "/"
+$$
+
+---
+
+## 3. Typing Rules
+
+### 3.1 Probe Typing
+
+If:
+
+$$
+B : \tau_B,\quad A : \tau_A
+$$
+
+Then:
+
+$$
+[B]A : \tau_A
+$$
+
+The probe does **not** change the type of $A$.
+
+### 3.2 Environment Typing
+
+If:
+
+$$
+B = v
+$$
+
+Then:
+
+$$
+[B=v]A
+$$
+
+is well‑typed iff:
+
+- $v$ is a valid value for $B$  
+- $A$ is evaluable under the environment $(B=v)$  
+
+---
+
+## 4. Evaluation Semantics
+
+### 4.1 Informal Definition
+
+$$
+[B=v]A
+$$
+
+means:
+
+> Evaluate $A$ in an environment where $B$ is temporarily set to $v$.
+
+### 4.2 Formal Evaluation Rule
+
+Let:
+
+- $\Gamma$ be the current environment  
+- $\Gamma[B \mapsto v]$ be the modified environment  
+
+Then:
+
+$$
+[B=v]A \Downarrow \text{eval}(A,\ \Gamma[B \mapsto v])
+$$
+
+Where:
+
+- $\Downarrow$ means “evaluates to”
+- `eval` is the standard LaeLogecs evaluator
+
+### 4.3 Value Lifting Rule
+
+If:
+
+$$
+[B=v]A \Downarrow x
+$$
+
+Then in the combinatoric space:
+
+$$
+(B=v) \Rightarrow (A=x)
+$$
+
+This is **not implication**.  
+It is **value lifting** into the search space.
+
+---
+
+## 5. Structural Properties
+
+### 5.1 Non‑Assignment
+
+$$
+[B=v]A \neq (B=v;\ A)
+$$
+
+The probe does **not** assign $B=v$ globally.
+
+### 5.2 Non‑Implication
+
+$$
+[B=v]A \neq (B=v \Rightarrow A)
+$$
+
+It is not a logical implication.
+
+### 5.3 Deterministic
+
+$$
+[B=v]A
+$$
+
+is deterministic, not modal:
+
+$$
+\text{Not } P(A \mid B)
+$$
+
+### 5.4 Indexed Evaluation
+
+$$
+[B=i]A
+$$
+
+is equivalent to evaluating $A$ at index $i$ in a multi-case model.
+
+---
+
+## 6. Examples
+
+### 6.1 Simple Probe
+
+```
+[B]A
+```
+
+Meaning:
+
+$$
+A \text{ evaluated under environment } B
+$$
+
+### 6.2 Indexed Probe
+
+```
+[B=7]A
+```
+
+Meaning:
+
+$$
+A \text{ evaluated under } B=7
+$$
+
+### 6.3 Service-Side Probe (from Ten.md)
+
+```
+[L=False]S
+```
+
+Meaning:
+
+$$
+S \text{ evaluated under } L=\text{False}
+$$
+
+---
+
+## 7. Summary
+
+The operator:
+
+```
+[B]A
+```
+
+is defined formally as:
+
+$$
+[B=v]A = \text{eval}(A,\ \Gamma[B \mapsto v])
+$$
+
+It is:
+
+- a **primitive operator** in LaeLogecs  
+- a **structural environment probe**  
+- a **deterministic evaluator**  
+- a **value-lifting mechanism**  
+- essential for **multi-end combinatorics**  
+- not expressible in classical logic  
+- only approximated procedurally in optimization  
+
+This grammar provides the exact syntactic and semantic foundation for implementing `[B]A` in LaeLogecs engines.
