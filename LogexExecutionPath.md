@@ -1,3 +1,5 @@
+![Logex Execution Path](Graphics/LogexExecutionPath.png)
+
 # Execution path of Logex logic block
 
 This is the most semantic version, based on a lot of rotations on axes which are actually free - so it's essential, where I do not work with the axes which optimize very differently based on your goal - minimal code, or optimized server, or logecs supercore which automatically optimizes each query and storage and execution track, utilizing each kind of intelligence on optimal load: this can be 128kb interpreter - i.e. TinySQL, 5MB service - i.e. MySQL, or 2GB supersystem - i.e. Oracle - or it's smaller emulation like PostGreSQL. SQL is perfect example: scaling from less than one kb for already meaningful subset, which could include major commands and semantic cases - add, remove, all or any - so that you could edit a table or a dataset / database / knowledge base.
