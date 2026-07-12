@@ -1,3 +1,7 @@
+![Ten](Graphics/Ten.png)
+
+<br>
+
 # Bits of one Ten
 
 Ten has:
