@@ -191,3 +191,240 @@ A is B is allowed: both are normal variables or symbolic placeholders, and one n
 Values T never change in logical system, but they are associated to space: values are temporal.
 
 Change of R meaningfully remaps all values. Variables names reassociate, and this can be connected to temporal index variables, and this whole dimension is spatial - it contains process.
+
+# CoPilot
+
+CoPilot explained my text once over, which it can do for you and offered:
+
+If you want, I can also produce:
+- a diagrammatic version
+- a clean GitHub‑ready markdown
+- a Laegna‑symbolic version using UTF‑8 icons
+- a Logex interpreter pseudocode
+- or a visual curvature‑based explanation (your preference)
+
+I asked: "or a visual curvature‑based explanation (my preference), but in github-compatible md format"
+
+# Laegna Logex — Curvature‑Based Execution Model
+
+This curvature model explains how a Logex block executes as a **geometric shape** evolving across axes T, R, V, and Y.  
+Logic is not a line of code — it is a **curve** whose bends represent truth, repetition, acceleration, and metasystem projection.
+
+> “Value of this block has T value with origin U, inner zero…”  
+> “V connects end with beginning, and calculates the point‑acceleration using external coordinate system.”
+
+---
+
+## 1. Axe T — Straight Segment (Static Truth)
+
+```
+A = E.
+```
+
+Visual:
+
+```
+T-axis (truth)
+   E ●─────
+```
+
+T is the **flat baseline**: no curvature, no acceleration.
+
+---
+
+## 2. Axe R — Curved Orbit (Repetition / State)
+
+```
+A[E] = E.
+```
+
+Visual:
+
+```
+R-axis (repetition / acceleration)
+
+      ● E
+    /     \
+   /       \
+  ●         ●
+```
+
+Infinite repetition stabilizes into a **closed curvature orbit**.
+
+---
+
+## 3. Axe V — Time‑Bending Acceleration
+
+```
+if not exists A:
+  A = True.
+A = A * 2.
+```
+
+Visual:
+
+```
+T (inner)      R (outer)
+● U            ● V
+ \              \
+  \              \
+   \              ● (A * 2)
+    \
+     ● (A)
+```
+
+V is the **bend** that turns inner stillness into outer motion.
+
+---
+
+## 4. Imperative Sequence — Polyline in Microtime
+
+```
+A = True.
+A = False.
+A = True.
+```
+
+Visual:
+
+```
+time t:   0        1        2
+          ● True ──● False ──● True
+```
+
+Assignments become **vertices** in microtime (ZI, ZO, ZA).
+
+---
+
+## 5. Controllers — Curvature Constraints
+
+Controllers enforce **legal curvature**:
+
+Visual:
+
+```
+allowed:
+●───●───●   (smooth)
+
+disallowed:
+●───┐
+    └──●   (contradiction)
+```
+
+Z‑mode: finite curvature (FSM).  
+Y‑mode: curvature may extend into infinity.
+
+---
+
+## 6. Templates — Canonical Curves
+
+Visual:
+
+```
+Template curve:
+●──●──●──●
+
+Match curve:
+●──●──●──●
+```
+
+Execution is valid when the **actual curve** matches the **template curve**.
+
+---
+
+## 7. Functions — Curvature Operators
+
+```
+{A * B}(2)
+({A * B} * 0.0001)(2)
+```
+
+Dimensional meaning:
+
+- `+` → 1D  
+- `*` → 2D  
+- `**` → 3D  
+
+Fractional execution:
+
+Visual:
+
+```
+Full curve:
+●───────●───────●
+
+0.0001 slice:
+●─●
+```
+
+Repeated slices reconstruct the full curve.
+
+---
+
+## 8. Identity vs Space Redefinition
+
+```
+A is B.
+```
+
+A’s curve becomes identical to B’s.
+
+```
+A is B!
+```
+
+Visual:
+
+```
+before:
+A: ●──●──●
+B: ●────●
+
+after `A is B!`:
+A: ●────●
+```
+
+This is **global curvature remapping**.
+
+---
+
+## 9. Y‑Axe — Curvature into Infinity (Metasystem Digit)
+
+Visual:
+
+```
+internal:
+●──●──●
+
+external (Y):
+        ↑
+        ● (A')
+```
+
+Y is the **external projection** where karmic loops and metasystem processes live.
+
+---
+
+## Final Shape — Logex Block as Multi‑Curvature Object
+
+Visual:
+
+```
+         Y
+         ↑
+        ●
+       / \
+      /   \
+   R ●─────●
+      \
+       \
+        ● T
+```
+
+- **T** — straight truth segment  
+- **R** — orbit of repetition  
+- **V** — time‑bending acceleration  
+- **Y** — external infinite projection  
+
+Logex execution is the evolution of this **curved shape**.
+
