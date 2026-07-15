@@ -33,6 +33,8 @@ That A is E gives E. $A = E$. Mathematically, E is a number, and that A is E yie
 
 ## Value Transistion: Real acceleration
 
+![TenMat](Graphics/TenMat.png)
+
 ```prolog
   if not exists A:
     A = True.
@@ -159,6 +161,8 @@ To set it: (A(5) + 2) = n.
   - Backups can support slicing in various ways, but we need to describe backgradient, where logic machine can do this assignation instantly - as soon as variable becomes available.
 
 ## Classes and objects
+
+![TenVision](Graphics/TenVision.png)
 
 A is B is allowed: both are normal variables or symbolic placeholders, and one now objects in semantic parsing:
 - If templates for A are processed, they implicitly contain copy of templates of B inside.
